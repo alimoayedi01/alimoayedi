@@ -1,0 +1,55 @@
+{
+  "personalInfo": {
+    "name": "Ali Moayedi",
+    "title": "Flutter Developer",
+    "tagline": "Building beautiful cross-platform mobile experiences",
+    "bio": "Passionate Flutter developer with expertise in creating high-performance, pixel-perfect mobile applications. I specialize in crafting intuitive user interfaces and seamless user experiences across iOS and Android platforms.",
+    "email": "alimoayedi79@gmail.com",
+    "github": "https://github.com/alimoayedi01",
+    "linkedin": "https://linkedin.com/in/ali-moayedi-3856b1131",
+    "twitter": "https://twitter.com/yourusername",
+    "heroBackground": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "projects",
+      "title": "Featured Projects",
+      "enabled": true,
+      "order": 2
+    },
+    {
+      "id": "skills",
+      "title": "Tech Stack",
+      "enabled": true,
+      "order": 3
+    },
+    {
+      "id": "about",
+      "title": "About Me",
+      "enabled": true,
+      "order": 4
+    },
+    {
+      "id": "contact",
+      "title": "Get In Touch",
+      "enabled": true,
+      "order": 5
+    }
+  ],
+  "skills": [
+    "Flutter",
+    "Dart",
+    "Firebase",
+    "REST APIs",
+    "State Management (Bloc/Provider)",
+    "Material Design",
+    "iOS & Android",
+    "Git",
+    "CI/CD"
+  ]
+}
