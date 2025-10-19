@@ -1,0 +1,174 @@
+{
+  "projects": [
+    {
+      "id": "project-20",
+      "title": "Mashaal",
+      "description": "Mashaal is an educational and cultural content platform available on Cafe Bazaar.",
+      "technologies": ["Flutter", "API Integration"],
+      "github": null,
+      "liveUrl": "https://cafebazaar.ir/app/ir.anil.mashaal",
+      "image": "/assets/projects/mashaal.png",
+      "featured": false
+    },
+    {
+      "id": "project-2",
+      "title": "National Credit Network",
+      "description": "A governmental program app where each household receives monthly credits to purchase specific goods from government stores.",
+      "technologies": ["Flutter", "API Integration"],
+      "github": null,
+      "liveUrl": "https://myket.ir/app/ir.sfara.fara",
+      "image": "/assets/projects/national-credit-network.png",
+      "featured": false
+    },
+    {
+      "id": "project-3",
+      "title": "ImamHosseinTv",
+      "description": "A reporting-TV Flutter app migrated to null-safety, with added features for sending media content.",
+      "technologies": ["Flutter"],
+      "github": null,
+      "liveUrl": "https://play.google.com/store/apps/details?id=tv.imamhussein.app",
+      "image": "/assets/projects/imamhossein-tv.png",
+      "featured": false
+    },
+    {
+      "id": "project-5",
+      "title": "Chamber",
+      "description": "A full e-commerce application with advertising and payment features.",
+      "technologies": ["Flutter", "Payment Integration"],
+      "github": null,
+      "liveUrl": "https://apps.apple.com/us/app/%D8%AC%D9%85%D8%A8%D8%B1/id1671348871",
+      "image": "/assets/projects/chamber.png",
+      "featured": false
+    },
+    {
+      "id": "project-6",
+      "title": "Vip-Signs",
+      "description": "A multilingual crypto signals app with VIP subscriptions, analytic charts, and smooth UI using advanced design patterns.",
+      "technologies": ["Flutter", "Bloc", "Charts", "Subscription"],
+      "github": null,
+      "liveUrl": "https://play.google.com/store/apps/details?id=com.devolab.signal",
+      "image": "/assets/projects/vip-signs.png",
+      "featured": true
+    },
+    {
+      "id": "project-7",
+      "title": "Chamber Delivery",
+      "description": "Delivery application developed for the Chamber corporation.",
+      "technologies": ["Flutter"],
+      "github": null,
+      "liveUrl": "https://apps.apple.com/us/app/%D8%AC%D9%85%D8%A8%D8%B1-%D8%A7%D9%84%D8%AA%D9%88%D8%B5%DB%8C%D9%84/id1671366656",
+      "image": "/assets/projects/chamber.png",
+      "featured": false
+    },
+    {
+      "id": "project-8",
+      "title": "Mortaqib",
+      "description": "An online shop for selling digital products with a WordPress backend.",
+      "technologies": ["Flutter", "WordPress"],
+      "github": null,
+      "liveUrl": "https://play.google.com/store/apps/details?id=com.devolab.almurtakb",
+      "image": "/assets/projects/default.svg",
+      "featured": false
+    },
+    {
+      "id": "project-9",
+      "title": "Habshcall",
+      "description": "A multi-vendor online shop. Migrated to null-safety and redesigned the home and category UI.",
+      "technologies": ["Flutter"],
+      "github": null,
+      "liveUrl": "https://play.google.com/store/apps/details?id=com.devolab.habshcall",
+      "image": "/assets/projects/default.svg",
+      "featured": false
+    },
+    {
+      "id": "project-10",
+      "title": "Play (Mobile App)",
+      "description": "A full VOD mobile application currently under development and not yet on the market.",
+      "technologies": ["Flutter"],
+      "github": null,
+      "liveUrl": null,
+      "image": "/assets/projects/default.svg",
+      "featured": false
+    },
+    {
+      "id": "project-11",
+      "title": "Music App",
+      "description": "A full music application with offline playback and standard music player features.",
+      "technologies": ["Flutter"],
+      "github": null,
+      "liveUrl": null,
+      "image": "/assets/projects/default.svg",
+      "featured": false
+    },
+    {
+      "id": "project-12",
+      "title": "Shahid Beheshti Rulebook",
+      "description": "A Flutter app version of the students' handbook distributed during orientation at Shahid Beheshti University.",
+      "technologies": ["Flutter"],
+      "github": null,
+      "liveUrl": null,
+      "image": "/assets/projects/default.svg",
+      "featured": false
+    },
+    {
+      "id": "project-13",
+      "title": "Pharmacy-Shop",
+      "description": "Implemented cart and checkout features including API logic and UI for a pharmaceutical e-commerce app.",
+      "technologies": ["Flutter", "API Integration"],
+      "github": null,
+      "liveUrl": null,
+      "image": "/assets/projects/default.svg",
+      "featured": false
+    },
+    {
+      "id": "project-14",
+      "title": "GameLand",
+      "description": "A reservation app for a gaming complex where users can sign up, view system availability, and reserve systems.",
+      "technologies": ["Flutter", "Firebase"],
+      "github": null,
+      "liveUrl": null,
+      "image": "/assets/projects/default.svg",
+      "featured": false
+    },
+    {
+      "id": "project-15",
+      "title": "Online Shop",
+      "description": "A complete online shop built with Flutter and Firebase, supporting account creation, cart, seller uploads, and smooth UI patterns.",
+      "technologies": ["Flutter", "Firebase"],
+      "github": null,
+      "liveUrl": null,
+      "image": "/assets/projects/default.svg",
+      "featured": true
+    },
+    {
+      "id": "project-16",
+      "title": "Instagram Clone",
+      "description": "A full-featured Instagram clone developed with Flutter as part of my internship at Nahira.",
+      "technologies": ["Flutter", "Firebase"],
+      "github": null,
+      "liveUrl": null,
+      "image": "/assets/projects/default.svg",
+      "featured": false
+    },
+    {
+      "id": "project-17",
+      "title": "Farabi Bank",
+      "description": "A Java-based university banking system project with Manager, Employee, and Customer roles, OTP and two-step verification.",
+      "technologies": ["Java", "JFrame", "OTP"],
+      "github": null,
+      "liveUrl": null,
+      "image": "/assets/projects/default.svg",
+      "featured": false
+    },
+    {
+      "id": "project-19",
+      "title": "README",
+      "description": "A note clarifying that additional NDA-protected projects are not listed.",
+      "technologies": [],
+      "github": null,
+      "liveUrl": null,
+      "image": "/assets/projects/readme.png",
+      "featured": false
+    }
+  ]
+}

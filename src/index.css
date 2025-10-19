@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 220 25% 8%;
+    --foreground: 210 40% 98%;
+
+    --card: 220 25% 10%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 220 25% 10%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 189 94% 55%;
+    --primary-foreground: 220 25% 8%;
+
+    --secondary: 220 20% 16%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 220 20% 16%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 189 94% 55%;
+    --accent-foreground: 220 25% 8%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 20% 16%;
+    --input: 220 20% 16%;
+    --ring: 189 94% 55%;
+
+    --radius: 0.75rem;
+    
+    /* Custom portfolio tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(189 94% 55% / 0.2), hsl(240 80% 60% / 0.2));
+    --gradient-accent: linear-gradient(90deg, hsl(189 94% 55%), hsl(240 80% 60%));
+    --glass-bg: hsl(220 25% 10% / 0.6);
+    --glass-border: hsl(189 94% 55% / 0.2);
+    --shadow-glow: 0 0 40px hsl(189 94% 55% / 0.15);
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+  }
+  
+  .gradient-text {
+    background: var(--gradient-accent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .animated-bg {
+    background: linear-gradient(
+      -45deg,
+      hsl(220 25% 8%),
+      hsl(240 40% 12%),
+      hsl(189 70% 15%),
+      hsl(260 50% 12%),
+      hsl(220 25% 8%)
+    );
+    background-size: 400% 400%;
+    animation: gradient-shift 15s ease infinite;
+  }
+  
+  @keyframes gradient-shift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
